@@ -1,0 +1,14 @@
+.update-balance{
+    padding: 18px;
+    background-color: #f5f5f5;
+}
+
+.form-element {
+    padding: 2%;
+}
+
+.input-balance {
+    width: 100%;
+    padding: 18px 0;
+    border: none;
+}

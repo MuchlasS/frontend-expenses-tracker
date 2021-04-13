@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="stylesheet" href="css/balance.css">
+    <link rel="stylesheet" href="css/update-balance.css">
+</head>
+<body>
+    <div class="balance">
+        <div class="available-balance">500000</div>
+        <div class="income-balance box-balance">
+            <p>Income</p>
+            <p>500000</p>
+        </div>
+        <div class="expense-balance box-balance">
+            <p>Expense </p>
+            <p>0</p>
+        </div>
+    </div>
+    
+    <div class="update-balance">
+        <div>
+            <div class="form-element">
+                <select class="input-balance" name="incomeExpense" id="incomeExpense">
+                    <option value="1">Income</option>
+                    <option value="2">Expense</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <input class="input-balance" type="text" placeholder="Add Balance">
+            </div>
+            <div class="form-element">
+                <select class="input-balance" name="categories" id="expenseCategories">
+                    <option value="">Choose a category</option>
+                    <option value="1">Investment</option>
+                    <option value="2">Beverages</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
